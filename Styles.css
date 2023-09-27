@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(78, 113, 228, 0.26);
+}
+
+/* Estilos para el título  */
+.title {
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.title:hover {
+    color: #401099; /* Cambia el color al pasar el mouse por encima */
+    
+}
+
+/* Estilos para la descripción */
+.description {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Estilos para los productos */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilos para el botón de detalle */
+.product a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el efecto de mouseover/mouseout en el párrafo */
+.product-description {
+    color: #333;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.product-description:hover {
+    color: #32137a; /* Cambia el color al pasar el mouse por encima */
+    text-decoration: underline; /* Subraya el texto */
+}
